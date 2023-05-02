@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     margin:0;
     font-family: "DejaVu Sans", sans-serif;
+    box-sizing: border-box;
 }
 
 ul{
@@ -14,16 +15,16 @@ a{
     color:#E5E7EB;
 }
 
-.header{
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-around;
+.header, .post-header{
     background-color: #1f2937;
     color:white;
-    align-items: center;
 }
 
-
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
 
 .header .links{
     font-size: 18px;
@@ -31,3 +32,40 @@ a{
     flex-direction: row;
     gap:20px;
 }
+
+.post-header{
+    padding:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    padding:100px 0;
+}
+
+.post-header .text{
+    font-size: 18px; color:#E5E7EB;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 510px;
+}
+
+.signup{
+    width: 120px;
+    height: 30px;
+    background-color:#3882F6;
+    border-radius: 10px;
+    border:0;
+    color:white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.post-header *{
+    margin:5px 0;
+}
+
+
+
+
+
