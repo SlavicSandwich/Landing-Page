@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    font-family: "DejaVu Sans", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color:#f9faf8;
+}
+
+.header{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color:white;
+    align-items: center;
+}
+
+
+
+.header .links{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
