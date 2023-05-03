@@ -4,6 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     margin:0;
+    padding:0;
     font-family: "Open Sans";
     box-sizing: border-box;
 }
@@ -120,8 +121,7 @@ img{
 /* Styling for Quote */
 
 .quote-block{
-    padding-top:70px;
-    padding-bottom: 70px;
+    padding:7em 13em;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -133,14 +133,13 @@ img{
     font-size: 36px;
     font-style: italic;
     color:#1f2937;
-    width: 800px;
     margin: 0;
 }
 
 .quote-block .author{
+    align-self: flex-end;
     margin:0;
     padding:0;
-    margin-left: 450px;
     font-size: 25px;
     font-weight: 700;
 }
