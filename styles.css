@@ -123,20 +123,26 @@ img{
 .quote-block{
     padding:7em 13em;
     display:flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
 }
 
-.quote-block .quote{
+.quote-block .quote-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.quote-text .quote{
     font-size: 36px;
     font-style: italic;
     color:#1f2937;
     margin: 0;
 }
 
-.quote-block .author{
+.quote-text .author{
     align-self: flex-end;
     margin:0;
     padding:0;
