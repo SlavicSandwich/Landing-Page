@@ -51,8 +51,7 @@ img{
     gap:40px;
     padding:100px 0;
 }
-
-.post-header .text{
+.text{
     font-size: 18px; color:#E5E7EB;
     text-align: left;
     display: flex;
@@ -82,7 +81,8 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
+    gap:20px;
 
 }
 
@@ -96,7 +96,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:8px;
+    gap:40px;
 }
 
 .illustrations .blocks .block .imagebox{
@@ -111,12 +111,66 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-basis:200px;
+    flex-basis:150px;
     text-align: center;
     font-size: 16px;
     color:#3a4452;
 }
 
+/* Styling for Quote */
 
+.quote-block{
+    padding-top:70px;
+    padding-bottom: 70px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
 
+.quote-block .quote{
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+    width: 700px;
+    margin: 0;
+}
 
+.quote-block .author{
+    margin:0;
+    padding:0;
+    margin-left: 450px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/*  */
+
+.signup-block{
+    padding:40px;
+    margin:100px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .signup-block .text{
+    margin:30px;
+} */
+
+.signup-block h1{
+    margin: 0;
+    font-size: 30px;
+}
+
+.signup-block p{
+    margin:0;
+    font-size: 16px;
+}
+
+.signup#background{
+    border: solid 2px white;
+}
